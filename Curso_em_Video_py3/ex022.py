@@ -1,0 +1,6 @@
+n = input('Nome Completo: ').strip()
+print('Nome todo maiúsculo: ', n.upper())
+print('Nome todo munúsculo: ', n.lower())
+s = n.split()
+print('Quantidade de letras, sem os espaços: {}'.format(len(n) - n.count(' ')))
+print('Quantidade de letras no primeiro nome: {}'.format(len(s[0])))
